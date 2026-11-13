@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+*.keras
+*.h5
+*.pth
+*.pt
+*.joblib
+*.npz
+quantum_malaria_data/
+quantum_malaria_final/
+quantum_malaria_final.zip
+.DS_Store
+Thumbs.db
