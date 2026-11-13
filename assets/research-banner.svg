@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="350" viewBox="0 0 1200 350" role="img" aria-label="Hybrid Quantum Classical Malaria Detection banner">
+<defs>
+  <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#071429"/><stop offset=".55" stop-color="#11264b"/><stop offset="1" stop-color="#102c3f"/></linearGradient>
+  <linearGradient id="accent" x1="0" x2="1"><stop stop-color="#38bdf8"/><stop offset="1" stop-color="#2dd4bf"/></linearGradient>
+  <radialGradient id="cell" cx=".4" cy=".35"><stop stop-color="#ff8292"/><stop offset=".65" stop-color="#ef476f"/><stop offset="1" stop-color="#94254f"/></radialGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="12"/></filter>
+  <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0 H0 V34" fill="none" stroke="#8eb9e8" stroke-opacity=".08" stroke-width="1"/></pattern>
+</defs>
+<rect width="1200" height="350" rx="22" fill="url(#bg)"/>
+<rect width="1200" height="350" rx="22" fill="url(#grid)"/>
+<circle cx="1020" cy="175" r="172" fill="#22d3ee" opacity=".08" filter="url(#glow)"/>
+<path d="M810 55 L850 95 L940 72 L1000 120 L1102 83 M842 249 L907 211 L975 259 L1086 227" fill="none" stroke="#5de6ef" stroke-opacity=".25" stroke-width="2"/>
+<g fill="#b9eefd"><circle cx="810" cy="55" r="4"/><circle cx="850" cy="95" r="5"/><circle cx="940" cy="72" r="4"/><circle cx="1000" cy="120" r="5"/><circle cx="1102" cy="83" r="4"/><circle cx="842" cy="249" r="5"/><circle cx="907" cy="211" r="4"/><circle cx="975" cy="259" r="5"/><circle cx="1086" cy="227" r="4"/></g>
+<g transform="translate(935 162) rotate(-17)">
+  <ellipse rx="75" ry="58" fill="url(#cell)" stroke="#ff9ab1" stroke-width="4"/>
+  <ellipse rx="35" ry="23" fill="#a0284c" opacity=".72"/>
+  <path d="M-24 -6 Q-1 -29 19 -6 Q30 19 5 18 Q-20 16 -24 -6 Z" fill="#f9bad6" opacity=".5"/>
+</g>
+<g transform="translate(1090 180) rotate(22)" opacity=".83"><ellipse rx="48" ry="36" fill="url(#cell)" stroke="#f58baa" stroke-width="3"/><ellipse rx="22" ry="14" fill="#96254c" opacity=".8"/></g>
+<g transform="translate(844 185) rotate(27)" opacity=".75"><ellipse rx="28" ry="23" fill="url(#cell)" stroke="#ff8fac" stroke-width="2"/><ellipse rx="12" ry="8" fill="#96254c"/></g>
+<g font-family="Segoe UI, Arial, sans-serif">
+ <rect x="55" y="38" width="241" height="31" rx="15.5" fill="#1b4561" stroke="#4399b5" stroke-opacity=".7"/>
+ <text x="175" y="59" text-anchor="middle" font-size="13" font-weight="700" fill="#8feaff" letter-spacing="1.4">RESEARCH PROTOTYPE</text>
+ <text x="55" y="124" font-size="44" font-weight="800" fill="#fff">Hybrid Quantum–Classical</text>
+ <text x="55" y="179" font-size="52" font-weight="800" fill="url(#accent)">Malaria Detection</text>
+ <text x="57" y="218" font-size="20" fill="#c3d7e9">EfficientNetB0  ·  8-Qubit Variational Circuit  ·  PyTorch</text>
+ <rect x="55" y="259" width="202" height="54" rx="12" fill="#102f49" stroke="#2e6981"/>
+ <text x="72" y="281" font-size="12" fill="#96b4ce">HYBRID TEST ACCURACY</text><text x="72" y="303" font-size="22" font-weight="800" fill="#5fe5d4">95.26%</text>
+ <rect x="270" y="259" width="202" height="54" rx="12" fill="#102f49" stroke="#2e6981"/>
+ <text x="287" y="281" font-size="12" fill="#96b4ce">CNN TEST ACCURACY</text><text x="287" y="303" font-size="22" font-weight="800" fill="#dfeefc">95.28%</text>
+ <rect x="485" y="259" width="174" height="54" rx="12" fill="#102f49" stroke="#2e6981"/>
+ <text x="502" y="281" font-size="12" fill="#96b4ce">TEST IMAGES</text><text x="502" y="303" font-size="22" font-weight="800" fill="#dfeefc">4,134</text>
+</g>
+</svg>
