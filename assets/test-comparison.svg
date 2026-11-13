@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="366" viewBox="0 0 960 366" role="img" aria-label="Final test performance comparison: CNN accuracy 95.28%, MLP 95.09%, Hybrid Quantum 95.26%">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0c1832"/><stop offset="1" stop-color="#152846"/></linearGradient><linearGradient id="q" x1="0" x2="1"><stop stop-color="#06b6d4"/><stop offset="1" stop-color="#5eead4"/></linearGradient><linearGradient id="c" x1="0" x2="1"><stop stop-color="#6c8df7"/><stop offset="1" stop-color="#a78bfa"/></linearGradient></defs>
+<rect width="960" height="366" rx="18" fill="url(#bg)"/>
+<g font-family="Segoe UI, Arial, sans-serif">
+<text x="35" y="43" font-size="23" font-weight="750" fill="#f0f7ff">Final test accuracy</text>
+<text x="35" y="69" font-size="14" fill="#a8bdd7">4,134 independent test images · default threshold 0.50</text>
+<g font-size="15" fill="#dbeafe"><text x="35" y="127">Classical CNN</text><text x="35" y="203">Classical MLP</text><text x="35" y="279">Hybrid Quantum</text></g>
+<g opacity=".8" fill="#233a56"><rect x="210" y="100" width="640" height="40" rx="9"/><rect x="210" y="176" width="640" height="40" rx="9"/><rect x="210" y="252" width="640" height="40" rx="9"/></g>
+<rect x="210" y="100" width="609.792" height="40" rx="9" fill="url(#c)"/>
+<rect x="210" y="176" width="608.576" height="40" rx="9" fill="#64748b"/>
+<rect x="210" y="252" width="609.664" height="40" rx="9" fill="url(#q)"/>
+<g font-size="18" font-weight="750" fill="#fff" text-anchor="end"><text x="920" y="127">95.28%</text><text x="920" y="203">95.09%</text><text x="920" y="279">95.26%</text></g>
+<text x="35" y="334" font-size="13" fill="#a8bdd7">Differences are small; this result does not demonstrate a quantum advantage.</text>
+</g>
+</svg>
