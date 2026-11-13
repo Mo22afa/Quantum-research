@@ -1,0 +1,12 @@
+tensorflow
+tensorflow-datasets
+torch
+pennylane
+qiskit
+qiskit-aer
+scikit-learn
+numpy
+pandas
+scipy
+matplotlib
+joblib
